@@ -1,6 +1,6 @@
 # Next.js Store Application with API Integration
 
-This project is a Next.js application that utilizes a separate API to fetch and display product data. It is designed to work alongside with the [admin project](https://github.com/rameskum/ecommerce-admin) with Stripe integration, admin dashboard, and image upload functionality.
+This project is a Next.js application that utilizes a separate API to fetch and display product data. It is designed to work alongside with the [admin project](https://github.com/duvanovik/ecommerce-admin-main) with Stripe integration, admin dashboard, and image upload functionality.
 
 ![app_render](./Store.jpeg)
 
