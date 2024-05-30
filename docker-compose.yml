@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  store:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:3000/api/f0b7658f-3f32-41e4-9de2-0f1788ca8c46
+      - NEXT_PUBLIC_BILLBOARD_ID=4799cb9e-389d-42e0-a767-6ca3aa7dcf8f
+    ports:
+      - "3001:3000"
